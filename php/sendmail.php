@@ -21,7 +21,7 @@ alert($message);
 	}
 
 	// Email will be send
-	$to = "mailexample62@gmail.com"; // Change with your email address
+	$to = "contact@abkanconsulting.com"; // Change with your email address
 	$sub = "$subject from CV"; // You can define email subject
 	// HTML Elements for Email Body
 	$body = <<<EOD
