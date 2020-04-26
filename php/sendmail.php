@@ -8,17 +8,11 @@ $message = trim($_POST['message']);
 
 
 if( isset($name) && isset($email) ) {
-
-alert($name);
-alert($email);
-alert($company);
-alert($subject);
-alert($message);
 	// Avoid Email Injection and Mail Form Script Hijacking
-	$pattern = "/(content-type|bcc:|cc:|to:)/i";
-	if( preg_match($pattern, $name) || preg_match($pattern, $email) || preg_match($pattern, $message) ) {
-		exit;
-	}
+	// $pattern = "/(content-type|bcc:|cc:|to:)/i";
+	//if( preg_match($pattern, $name) || preg_match($pattern, $email) || preg_match($pattern, $message) ) {
+	//	exit;
+	//}
 
 	// Email will be send
 	$to = "contact@abkanconsulting.com"; // Change with your email address
